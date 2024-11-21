@@ -50,7 +50,7 @@
     },
     {
       "id": "002",
-      "category": "Женская одежда"
+      "category": "Женские свитера"
     },
     {
       "id": "003",
@@ -59,6 +59,22 @@
     {
       "id": "004",
       "category": "Детская одежда"
+    },
+    {
+      "id": "005",
+      "category": "Юбки"
+    },
+    {
+      "id": "006",
+      "category": "Платья"
+    },
+    {
+      "id": "007",
+      "category": "Штаны"
+    },
+    {
+      "id": "008",
+      "category": "Футболки"
     }
   ],
   "sessions": [
@@ -91,6 +107,56 @@
       },
       "hash": "0.72290029994221605136317521100863814353942871093750",
       "id": "3"
+    },
+    {
+      "user": {
+        "id": "7377",
+        "login": "ola",
+        "password": "1111",
+        "roleId": 0
+      },
+      "hash": "0.76442029523303145488455356826307252049446105957031",
+      "id": "XwU90m4"
+    },
+    {
+      "user": {
+        "id": "7377",
+        "login": "ola",
+        "password": "1111",
+        "roleId": 0
+      },
+      "hash": "0.78440248082188857026153527840506285429000854492188",
+      "id": "kzgvKRB"
+    },
+    {
+      "user": {
+        "id": "7377",
+        "login": "ola",
+        "password": "1111",
+        "roleId": 0
+      },
+      "hash": "0.19925412455754853979783547401893883943557739257813",
+      "id": "NENxFfo"
+    },
+    {
+      "user": {
+        "id": "7377",
+        "login": "ola",
+        "password": "1111",
+        "roleId": 0
+      },
+      "hash": "0.45299820871181761816615107818506658077239990234375",
+      "id": "7NBst7U"
+    },
+    {
+      "user": {
+        "id": "7377",
+        "login": "ola",
+        "password": "1111",
+        "roleId": 0
+      },
+      "hash": "0.64773119872831963483861272834474220871925354003906",
+      "id": "s-eJUp_"
     }
   ],
   "categoryToProduct": [
@@ -203,6 +269,71 @@
       "categoryId": "002",
       "productId": "QCf-1V_",
       "id": "30"
+    },
+    {
+      "categoryId": "005",
+      "productId": "WmcqZrC",
+      "id": "6Arf1ym"
+    },
+    {
+      "categoryId": "005",
+      "productId": "2t2n0BX",
+      "id": "0ktzIhY"
+    },
+    {
+      "categoryId": "005",
+      "productId": "UVJ99Bo",
+      "id": "ZSB5I-N"
+    },
+    {
+      "categoryId": "005",
+      "productId": "FoiAYyk",
+      "id": "VYhebKQ"
+    },
+    {
+      "categoryId": "006",
+      "productId": "zZInPxW",
+      "id": "R0WiotT"
+    },
+    {
+      "categoryId": "007",
+      "productId": "Emp7J5y",
+      "id": "r51QuxX"
+    },
+    {
+      "categoryId": "007",
+      "productId": "P1ZYnIS",
+      "id": "6KymR8A"
+    },
+    {
+      "categoryId": "007",
+      "productId": "gs8XQcX",
+      "id": "smvygRL"
+    },
+    {
+      "categoryId": "007",
+      "productId": "CNL3uZm",
+      "id": "wlV3x-c"
+    },
+    {
+      "categoryId": "008",
+      "productId": "RI1rLSf",
+      "id": "ITGCbXe"
+    },
+    {
+      "categoryId": "008",
+      "productId": "uDPIAet",
+      "id": "JalkAaU"
+    },
+    {
+      "categoryId": "008",
+      "productId": "7ztnm85",
+      "id": "2OmBZ1N"
+    },
+    {
+      "categoryId": "008",
+      "productId": "Rl6Eanr",
+      "id": "qN4gxQ2"
     }
   ],
   "products": [
@@ -362,7 +493,7 @@
       "name": "Dress",
       "image": "https://img.kwcdn.com/product/fancy/dac43c0a-7f71-4959-a180-375d95258aac.jpg?imageView2/2/w/800/q/70/format/webp",
       "price": "111",
-      "categoryId": "002",
+      "categoryId": "006",
       "description": "Sweetheart Neck Tie Strap Cami Dress, Elegant Solid Chest Ruched Backless A-line Above Knee Dress, Women's Clothing",
       "id": "to2B-Jq"
     },
@@ -370,7 +501,7 @@
       "name": "Black Dress ",
       "image": "https://img.kwcdn.com/product/fancy/market/task21/9df56473a8f9af7a0aa0c6651ef6a070_1712733782470.jpg?imageView2/2/w/800/q/70/format/webp",
       "price": "200",
-      "categoryId": "002",
+      "categoryId": "006",
       "description": "Ruched Solid Dress, Elegant Long Sleeve Bodycon Party Dress, Women's Clothing For Party Dressing",
       "id": "x6eOuZd"
     },
@@ -378,17 +509,113 @@
       "name": "Woman Black Dress",
       "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/3a2771ded2c3ba1e25e2ef18e2143fc1.jpg?imageView2/2/w/800/q/70/format/webp",
       "price": "300",
-      "categoryId": "002",
+      "categoryId": "006",
       "description": "Square Neck Ribbed Knit Dress, Elegant Solid Ruffle Trim Aline Ruched Dress, Women's Clothing",
       "id": "QCf-1V_"
     },
     {
-      "name": "T-shirt",
-      "image": "",
-      "price": "150",
-      "categoryId": "003",
-      "description": "",
-      "id": "TUa8Qef"
+      "name": "Mini Skirt",
+      "image": "https://img.kwcdn.com/product/fancy/7b226e89-f2c2-4782-a3dc-caffbf4c9844.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "110",
+      "categoryId": "005",
+      "description": "Solid Heart Button Front Flared Skirt, Elegant Flared Zipper Mini Skirt, Women's Clothing",
+      "id": "WmcqZrC"
+    },
+    {
+      "name": "Skirt for summer",
+      "image": "https://img.kwcdn.com/product/fancy/a5074e29-af97-405f-a182-85d9a91f836a.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "200",
+      "categoryId": "005",
+      "description": "Solid Elastic Waist Pleated Skirt, Elegant Skateboard Comfy Skirt For Spring & Summer, Women's Clothing",
+      "id": "2t2n0BX"
+    },
+    {
+      "name": "Skirt",
+      "image": "https://img.kwcdn.com/product/fancy/5d7585e0-38c5-42ab-8ac7-077d855b6b1f.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "235",
+      "categoryId": "005",
+      "description": "Elegant Solid Color Button-Detail Suspender Skirt for Women - Polyester, Machine Washable",
+      "id": "UVJ99Bo"
+    },
+    {
+      "name": "Mini Skirt For Spring",
+      "image": "https://img.kwcdn.com/product/fancy/94b25aef-7e04-40b2-96de-12d042e798be.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "200",
+      "categoryId": "005",
+      "description": "482 reviews 4,8 All reviews are from verified purchases Item reviews (482) Provider reviews (3 968) Small True to size Large 3 % 91 % 6 % avatar Marlena Przytuła in  on Aug 21, 2024 It's great, the material is good, the length is perfect. mega See more avatar Judy in  on Jun 21, 2024 amazing easy to wear, perfect, beau, Very good See more avatar Anna Kowalska in  on Aug 15, 2024 Perfect in every way. I recommend it because it's worth it. See more Fischer Fischer 245 Followers 58K+ Sold 4.7  Established 1 year ago Details Save Report this item Composition: 100% Polyester Material: Polyester Details: Button See more   decor               for   summer womens   details 0  decor               for   summer womens   details 0   decor               for   summer womens   details 1  decor               for   summer womens   details 1   decor               for   summer womens   details 2  decor               for   summer womens   details 2   decor               for   summer womens   details 3  decor               for   summer womens   details 3   decor               for   summer womens   details 4  decor               for   summer womens   details 4 Button Decor High Waist Skirt, Casual Solid Flare Mini Skirt For Spring & Summer, Women's Clothing",
+      "id": "FoiAYyk"
+    },
+    {
+      "name": "Dress ",
+      "image": "https://img.kwcdn.com/product/fancy/805af22a-45db-4d1e-b805-e76eff10352f.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "100",
+      "categoryId": "006",
+      "description": "4 reviews 5,0 All reviews are from verified purchases Item reviews (4) Provider reviews (631) Small True to size Large 0 % 75 % 25 % avatar 55***16 in  on Nov 11, 2024 avatar 魅力的なキラールック ••• in  on Nov 10, 2024 avatar 56***28 in  on Nov 9, 2024 Slim Shiny Slim Shiny 68 Followers 12K+ Sold 4.7 Details Save Report this item Material: Polyester Details: Button Pattern: Solid color See more         set     long   v           cami   outfits womens   details 0        set     long   v           cami   outfits womens   details 0         set     long   v           cami   outfits womens   details 1        set     long   v           cami   outfits womens   details 1         set     long   v           cami   outfits womens   details 2        set     long   v           cami   outfits womens   details 2         set     long   v           cami   outfits womens   details 3        set     long   v           cami   outfits womens   details 3         set     long   v           cami   outfits womens   details 4        set     long   v           cami   outfits womens   details 4 Solid Color Stylish Dress Set, Button Front Long Sleeve V Neck Cardigan & Spaghetti Strap Slim Cami Dress Outfits, Women's Clothing",
+      "id": "zZInPxW"
+    },
+    {
+      "name": "Women's Casual Sports Trousers",
+      "image": "https://img.kwcdn.com/product/fancy/ebe4d7ba-43ba-45b9-a5f1-6d2f7f021137.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "230",
+      "categoryId": "007",
+      "description": "Women's Casual Sports Trousers, Flare Pants, Solid Color, For Fitness And Workout, Women's Activewear",
+      "id": "Emp7J5y"
+    },
+    {
+      "name": "Solid Color Drawstring Jogger Pants",
+      "image": "https://img.kwcdn.com/product/fancy/562c8d25-429f-4c46-883d-b20d4909e483.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "200",
+      "categoryId": "007",
+      "description": "Solid Color Drawstring Jogger Pants, Casual Baggy Sporty Pants, Women's Clothing",
+      "id": "P1ZYnIS"
+    },
+    {
+      "name": "Vintage Wide Leg Jeans",
+      "image": "https://img.kwcdn.com/product/fancy/ab2415c8-c1f2-422b-84c1-6bebe4921172.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "240",
+      "categoryId": "007",
+      "description": "1 488 reviews 4,6 All reviews are from verified purchases Item reviews (1 488) Provider reviews (2 136) Small True to size Large 13 % 83 % 4 % avatar lenus in  on May 31, 2024 Purchased 2 times One of the best jeans I've ever had, they're really soft, nice and good at the waist. I didn't expect that they will be so good! BUY 💕🫶🏻 See more avatar Al***we in  on Sep 25, 2024 Very nice and comfortable pants, although a bit thin, but yes they meet expectations and are very nice See more avatar ni***ia in  on Oct 7, 2024 The pants are nicely cut, comfortable to wear. True to size. Inflexible but soft. Recommend See more Zolot clothing Zolot clothing 531 Followers 100K+ Sold 4.6  Established 1 year ago Details Save Report this item Composition:85% Cotton,15% Polyester Material: Cotton Details: Washed See more                       womens       details 0                      womens       details 0                       womens       details 1                      womens       details 1                       womens       details 2                      womens       details 2                       womens       details 3                      womens       details 3                       womens       details 4                      womens       details 4                       womens       details 5                      womens       details 5                       womens       details 6                      womens       details 6                       womens       details 7                      womens       details 7                       womens       details 8                      womens       details 8                       womens       details 9                      womens       details 9                       womens       details 10                      womens       details 10                       womens       details 11                      womens       details 11                       womens       details 12                      womens       details 12                       womens       details 13                      womens       details 13                       womens       details 14                      womens       details 14 Vintage Wide Leg Jeans, Slant Pocket Loose Stylist Streetwear Baggy Denim Pants, Women's Denim Jeans & Clothing",
+      "id": "gs8XQcX"
+    },
+    {
+      "name": " Vintage Washed Denim Jeans",
+      "image": "https://img.kwcdn.com/product/fancy/40e68eac-d486-4551-b50f-4e0f45d4fe2c.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "250",
+      "categoryId": "007",
+      "description": " Vintage Washed Denim Jeans for Adults - Solid Color, Woven Cotton Blend, Non-Stretch, Regular Fit, All-Season Comfort  Model is wearing: M Fit: True to size Height: 186 cmBust: 126 cmWaist: 84 cmHips: 107 cm 1 review 4,0 All reviews are from verified purchases Item reviews (1) Provider reviews (1 814) Small True to size Large 0 % 100 % 0 % avatar Mouad Sabri in  on Nov 16, 2024 Worth buying See more Reviews from similar items on Temu avatar el***z0 in  on Sep 29, 2024 they are very cool See more This review is for: Men's Loose Fit Wide Leg Distressed Jeans, Men's Stylish Comfy Denim Pants, Street Style Fashion avatar Pa***ki in  on Oct 13, 2024 WONDERFUL ARE See more This review is for: Men's Loose Fit Wide Leg Distressed Jeans, Men's Stylish Comfy Denim Pants, Street Style Fashion ChosenOne Denim ChosenOne Denim 612 Followers 31K+ Sold 4.7  High repeat customers provider  Established 1 year ago Details Save Report this item Material: Cotton Blend Composition: 65% Cotton,35% Polyester Length: Regular See more         for             non   regular       details 0        for             non   regular       details 0         for             non   regular       details 1        for             non   regular       details 1         for             non   regular       details 2        for             non   regular       details 2         for             non   regular       details 3        for             non   regular       details 3         for             non   regular       details 4        for             non   regular       details 4 See more Vintage Washed Denim Jeans for Adults - Solid Color, Woven Cotton Blend, Non-Stretch, Regular Fit, All-Season Comfort",
+      "id": "CNL3uZm"
+    },
+    {
+      "name": "Cat Print Crew Neck T-Shirt",
+      "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/57995812e690273de086fc2623800af8.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "110",
+      "categoryId": "008",
+      "description": "794 reviews 4,8 All reviews are from verified purchases Item reviews (794) Provider reviews (23 868) Small True to size Large 4 % 93 % 3 % avatar aqerlx in  on Jun 26, 2024 Although it is polyester, the blouse is very pleasant to the touch and has a nice material. You don't have to order a larger size because the regular size is already oversized See more avatar ly***ia in  on Feb 11, 2024 I LOVE THIS OMG T-SHIRT IT'S CUTE, GOOD QUALITY AND MEGA CUTE!! I advise you to only order a larger size because I who normally wear an S, when I ordered an M it was not very oversize... I heartily recommend!! <3 See more avatar pa***rc in  on May 11, 2024 Super material does not get damaged when washed, I give 5 stars because it is a super great product, I recommend it 😉👍 See more ECHO GIRL ECHO GIRL 4,6K+ Followers 100K+ Sold 4.6  High repeat customers provider  Established 1 year ago Details Save Report this item Composition: 100% Polyester Material: Polyester Length: Long length See more cat       t   y2k   t   for   summer womens   details 0cat       t   y2k   t   for   summer womens   details 0 cat       t   y2k   t   for   summer womens   details 1cat       t   y2k   t   for   summer womens   details 1 cat       t   y2k   t   for   summer womens   details 2cat       t   y2k   t   for   summer womens   details 2 cat       t   y2k   t   for   summer womens   details 3cat       t   y2k   t   for   summer womens   details 3 cat       t   y2k   t   for   summer womens   details 4cat       t   y2k   t   for   summer womens   details 4 cat       t   y2k   t   for   summer womens   details 5cat       t   y2k   t   for   summer womens   details 5 cat       t   y2k   t   for   summer womens   details 6cat       t   y2k   t   for   summer womens   details 6 Cat Print Crew Neck T-Shirt, Y2K Short Sleeve T-Shirt For Spring & Summer, Women's Clothing",
+      "id": "RI1rLSf"
+    },
+    {
+      "name": "Letter Print Crew Neck T-shirt",
+      "image": "https://img.kwcdn.com/product/fancy/0723def8-2a9f-4195-b545-7b78b433e994.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "200",
+      "categoryId": "008",
+      "description": "Letter Print Crew Neck T-shirt, Casual Short Sleeve Top For Spring & Summer, Women's Clothing",
+      "id": "uDPIAet"
+    },
+    {
+      "name": "Moon & Mountain Print Crew Neck T-Shirt",
+      "image": "https://img.kwcdn.com/product/fancy/c2a2c408-cdb9-4885-80e9-5108f9f29692.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "110",
+      "categoryId": "008",
+      "description": "240 reviews 4,8 All reviews are from verified purchases Item reviews (240) Provider reviews (6 252) Small True to size Large 1 % 95 % 4 % avatar zo***21 in  on Oct 23, 2024 Super thisrt, loose, sleeves cool, looks like the picture🖤 See more avatar Karina Czarnecka in  on Oct 16, 2024 Super polecam! See more avatar Martyna Cukierska in  on Nov 16, 2024 See more Wannabe Wannabe 417 Followers 100K+ Sold 4.8  Established 1 year ago Details Save Report this item Composition: 100% Polyester Material: Polyester Length: Regular See more           t       t   for   summer womens   details 0          t       t   for   summer womens   details 0           t       t   for   summer womens   details 1          t       t   for   summer womens   details 1           t       t   for   summer womens   details 2          t       t   for   summer womens   details 2           t       t   for   summer womens   details 3          t       t   for   summer womens   details 3           t       t   for   summer womens   details 4          t       t   for   summer womens   details 4 Moon & Mountain Print Crew Neck T-Shirt, Casual Short Sleeve T-Shirt For Spring & Summer, Women's Clothing",
+      "id": "7ztnm85"
+    },
+    {
+      "name": "Women's Casual Cotton T-Shirt - Solid Color",
+      "image": "https://img.kwcdn.com/product/fancy/d92f1a06-bd3b-4f05-ac3d-84242e118111.jpg?imageView2/2/w/800/q/70/format/webp",
+      "price": "120",
+      "categoryId": "008",
+      "description": "Women's Casual Cotton T-Shirt - Solid Color, Crew Neck, Short Sleeve Summer Top",
+      "id": "Rl6Eanr"
     }
   ],
   "basket": [
@@ -411,24 +638,6 @@
       "id": "6"
     },
     {
-      "id": "27f8",
-      "userId": "7377",
-      "productId": "Cf0_6ov",
-      "productImage": "https://img.kwcdn.com/product/fancy/96df86ad-a2e4-4caa-905e-71f3957beef3.jpg?imageView2/2/w/800/q/70/format/webp",
-      "productName": "Men's Hoodies 1 & Sweatshirts",
-      "productPrice": "250",
-      "productDescription": "Men's Mountain Embroidery Graphic Print Sweatshirt, Casual Half Zipper Stand Collar Long Sleeve Top For Outdoor"
-    },
-    {
-      "id": "d4d1",
-      "userId": "7377",
-      "productId": "b3U-q3h",
-      "productImage": "https://img.kwcdn.com/product/fancy/4ce1d322-222f-45c5-b1cc-24f572cdc5eb.jpg?imageView2/2/w/800/q/70/format/webp",
-      "productName": " Men's Sweatshirts",
-      "productPrice": "120",
-      "productDescription": "Men's Casual Fleece-Lined Quarter Zip Stand Collar Sweatshirt, Cozy Cotton Blend Winter Pullover Shirt"
-    },
-    {
       "id": "abac",
       "userId": "EYOrV6k",
       "productId": "QCf-1V_",
@@ -436,6 +645,24 @@
       "productName": "Woman Black Dress",
       "productPrice": "300",
       "productDescription": "Square Neck Ribbed Knit Dress, Elegant Solid Ruffle Trim Aline Ruched Dress, Women's Clothing"
+    },
+    {
+      "userId": "7377",
+      "productId": "Cf0_6ov",
+      "productImage": "https://img.kwcdn.com/product/fancy/96df86ad-a2e4-4caa-905e-71f3957beef3.jpg?imageView2/2/w/800/q/70/format/webp",
+      "productName": "Men's Hoodies 1 & Sweatshirts",
+      "productPrice": "250",
+      "productDescription": "Men's Mountain Embroidery Graphic Print Sweatshirt, Casual Half Zipper Stand Collar Long Sleeve Top For Outdoor",
+      "id": "zJCJaNj"
+    },
+    {
+      "userId": "7377",
+      "productId": "QCf-1V_",
+      "productImage": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/3a2771ded2c3ba1e25e2ef18e2143fc1.jpg?imageView2/2/w/800/q/70/format/webp",
+      "productName": "Woman Black Dress",
+      "productPrice": "300",
+      "productDescription": "Square Neck Ribbed Knit Dress, Elegant Solid Ruffle Trim Aline Ruched Dress, Women's Clothing",
+      "id": "6ILYyE3"
     }
   ]
 }

@@ -1,8 +1,4 @@
-// export const getRoles = () => {
-//   return fetch("http://localhost:3007/roles").then((loadedRoles) =>
-//     loadedRoles.json()
-//   );
-// };
+
 export const getRoles = async () => {
   try {
     const response = await fetch("http://localhost:3007/roles");

@@ -12,18 +12,45 @@ import { addProductToBasketOperation } from "../../api/operations/add-product-to
 export const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState("");
-  const [productsBeforeSearch, setProductsBeforeSearch] = useState([]);
+  // const [productsBeforeSearch, setProductsBeforeSearch] = useState([]);
   const [searchPhrase, setSearchPhrase] = useState("");
 
   const userId = useSelector(({ user }) => user.id);
 
-  const dispatch = useDispatch();
+  const productsFromRedax = useSelector(({ products }) => products.products);
+  // const dispatch = useDispatch();
 
   useEffect(() => {
     getProductOperation(id).then((loadedProduct) => {
       setProduct(loadedProduct);
     });
-  }, [id, searchPhrase]);
+  }, [id]);
+
+  const productsToDisplay = () => {
+    let products = productsFromRedax;
+
+    // products = products.filter((product) => {
+    //   return selectedCategoryId
+    //     ? product.categoryId === selectedCategoryId
+    //     : true;
+    // });
+
+    products = products.filter((product) => {
+      return searchPhrase
+        ? product.name.toLowerCase().includes(searchPhrase.toLowerCase())
+        : true;
+    });
+
+    // products = products.sort((a, b) => {
+    //   if (selectedSort === "asc") {
+    //     return a.price - b.price;
+    //   } else {
+    //     return b.price - a.price;
+    //   }
+    // });
+
+    return products;
+  };
 
   const addToCart = (id2) => {
     addProductToBasketOperation(
@@ -57,7 +84,7 @@ export const Product = () => {
 
       {searchPhrase ? (
         <div className={styles.products}>
-          {productsBeforeSearch.map(
+          {productsToDisplay().map(
             ({ id, name, image, price, categoryId, description }) => (
               <ProductsCards
                 key={id}

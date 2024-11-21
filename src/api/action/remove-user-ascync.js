@@ -1,6 +1,6 @@
-import { removeUserOeration } from "../operations";
+// import { removeUserOeration } from "../operations";
 
-export const removeUserAsync = (userId) => async (dispatch) => {
-  await removeUserOeration(userId);
+// export const removeUserAsync = (userId) => async (dispatch) => {
+//   await removeUserOeration(userId);
 
-};
+// };

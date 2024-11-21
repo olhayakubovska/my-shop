@@ -1,52 +1,22 @@
-export const getProductsByCategory = async (categoryId) => {
+export const getProductsByCategory = async (categoryId, page, limit) => {
+  const abc =
+    categoryId && `?categoryId=${categoryId}&_page=${page}&_limit=${limit}`;
+
   try {
-    const response = await fetch(
-      `http://localhost:3007/categoryToProduct?categoryId=${categoryId}`
-    );
+    const response = await fetch(`http://localhost:3007/products${abc}`);
 
     if (!response.ok) {
       throw new Error("Ошибка при получении данных");
     }
-    const category =await response.json(); // Возвращаем преобразованные данные
-    return category;
+    const products = await response.json();
+    const links = await response.headers.get("Link");
+    console.log(page, "pageFetch", products);
+
+    return {
+      products,
+      links,
+    };
   } catch (error) {
     console.error("Ошибка:", error);
   }
 };
-
-// import { getProductOperation } from "../operations/get-product-operation";
-
-// export const getProductsByCategory = (categoryId) => {
-//   return fetch(
-//     `http://localhost:3007/categoryToProduct?categoryId=${categoryId}`
-//   )
-//     .then((response) => {
-//       if (!response.ok) {
-//         throw new Error("Ошибка при получении данных");
-//       }
-//       return response.json(); // Возвращаем преобразованные данные
-//     })
-//     // .then((data) => {
-//     //   // Предполагаем, что данные содержат список ID продуктов
-//     //   const productIds = data.map((item) => item.productId);
-
-//     //   console.log(productIds, "productIds fetch");
-//     // // return  getProductOperation(productIds).then((response) => {
-//     // //     if (!response.ok) {
-//     // //       throw new Error("Ошибка при получении продуктов");
-//     // //     }
-//     // //     return response.json();
-//     // //   });
-//     //   // Обратите внимание на исправление здесь
-//     //   // return fetch(`http://localhost:3007/products?ids=${productIds.join(',')}`)
-//     //   //   .then(response => {
-//     //   //     if (!response.ok) {
-//     //   //       throw new Error("Ошибка при получении продуктов");
-//     //   //     }
-//     //   //     return response.json();
-//     //   //   });
-//     // })
-//     .catch((error) => {
-//       console.error("Ошибка:", error);
-//     });
-// };

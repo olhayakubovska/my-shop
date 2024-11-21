@@ -3,7 +3,7 @@ export * from "./add-product-in-cart";
 export * from "./loaded-async-product";
 export * from "./logout";
 export * from "./on-open-modal";
-export * from "./remove-product";
+// export * from "./remove-product";
 export * from "./remove-product-from-cart";
 export * from "./remove-user-ascync";
 export * from "./set-product-data";

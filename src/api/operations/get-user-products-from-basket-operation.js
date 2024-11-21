@@ -1,4 +1,4 @@
-import { getUserProductsFromBasket } from "../fetch/get-user-products";
+import { getUserProductsFromBasket } from "../fetch/get-user-products-from-basket"; 
 
 export const getUserProductsFromBasketOperation = async (userId) => {
   const userProducts = await getUserProductsFromBasket(userId);

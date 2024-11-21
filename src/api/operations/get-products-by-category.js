@@ -1,8 +1,15 @@
 import { getProductsByCategory } from "../fetch";
 
-export const getProductsFromServerByCategoryOperation = async (categoryId) => {
-  const products = await getProductsByCategory(categoryId);
+export const getProductsFromServerByCategoryOperation = async (
+  categoryId,
+  page,
+  limit
+) => {
+  const { products, links } = await getProductsByCategory(
+    categoryId,
+    page,
+    limit
+  );
 
-
-  return products;
+  return { products, links };
 };
