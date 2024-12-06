@@ -9,10 +9,10 @@ export const productsReducer = (state = initialStateProducts, action) => {
     case ACTION_TYPE.SET_PRODUCTS:
       return {
         ...state,
-        products: action.payload, // Обновляем список продуктов
+        products: action.payload, 
       };
 
     default:
-      return state; // Возвращаем текущее состояние, если действие неизвестно
+      return state;
   }
 };

@@ -1,4 +1,4 @@
-import { deleteProductFromBasket } from "../fetch/delete-product-from-basket";
+import { deleteProductFromBasket } from "../fetch";
 
 export const removeProductFromBasketOperation = async (productId) => {
   await deleteProductFromBasket(productId);

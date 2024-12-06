@@ -6,7 +6,6 @@ export const getUsers = async () => {
     }
 
     const users = await response.json();
-    // console.log(users,"users fetch")
     return users;
 
   } catch (error) {

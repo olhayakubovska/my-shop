@@ -6,7 +6,7 @@ import styles from "./header.module.css";
 import { logout } from "../../api/action";
 import { Link } from "react-router-dom";
 import { ROLE } from "../../constants";
-import { getUserProductsFromBasketOperation } from "../../api/operations/get-user-products-from-basket-operation";
+import { getUserProductsFromBasketOperation } from "../../api/operations";
 
 export const Header = () => {
   const userLogin = useSelector(({ user }) => user.login);
@@ -29,6 +29,7 @@ export const Header = () => {
     dispatch(logout(userSession));
     sessionStorage.removeItem("userData");
   };
+  // console.log(userSession, "userSession");
 
   return (
     <div className={styles.headerContainer}>

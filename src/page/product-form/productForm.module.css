@@ -14,15 +14,7 @@ input {
   flex-direction: column;
 }
 
-/* .inputAndLabel {
-  display: flex;
-  flex-direction: column;
-}
 
-.label {
-  margin: 0 10px;
-  font-size: 18px;
-} */
 
 .btn {
   background-color: #3498db;

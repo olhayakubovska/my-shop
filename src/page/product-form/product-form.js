@@ -47,8 +47,6 @@ export const ProductForm = () => {
     );
   }, [dispatch]);
 
-  // const products = useSelector((state) => state.products.products);
-
   const editProduct = (ItemId) => {
     getProductOperation(ItemId).then((loadedProduct) => {
       setProductId(ItemId);
@@ -101,54 +99,6 @@ export const ProductForm = () => {
     setEditedDescription("");
     setFlag(true);
   };
-
-  // const addProduct = (name, image, price, category, description) => {
-  //   // addProductOperation(
-  //   //   name,
-  //   //   image,
-  //   //   price,
-  //   //   category,
-  //   //   description,
-  //   //   session
-  //   // ).then(({ err, res }) => {
-  //   //   if (err) {
-  //   //     setError(err);
-  //   //   }
-  //   //   dispatch(setProductData(res));
-  //   // });
-
-  //   dispatch(
-  //     onOpenModal({
-  //       text: "Сохранить новый продукт?",
-  //       onConfirm: async () => {
-  //         const { res, err } = addProductOperation(
-  //           name,
-  //           image,
-  //           price,
-  //           category,
-  //           description,
-  //           session
-  //         );
-
-  //         if (err) {
-  //           setError(err);
-  //         }
-  //         dispatch(setProductData(res));
-  //         const loadedProducts = await getProducts();
-  //         dispatch(setProductsAction(loadedProducts));
-  //         setProd(loadedProducts);
-  //         dispatch({ type: ACTION_TYPE.CLOSE_MODAL });
-  //       },
-  //       onCancel: () => dispatch({ type: ACTION_TYPE.CLOSE_MODAL }),
-  //     })
-  //   );
-
-  //   setEditedName("");
-  //   setEditedPrice("");
-  //   setEditedImage("");
-  //   setEditedCategory("");
-  //   setEditedDescription("");
-  // };
 
   const addProduct = async (name, image, price, category, description) => {
     dispatch(
@@ -204,20 +154,13 @@ export const ProductForm = () => {
             if (err) {
               setError(err);
             } else {
-              // Удаляем продукт из локального состояния
               setProd((prevProducts) =>
                 prevProducts.filter((prod) => prod.id !== productId)
               );
 
-              // Также обновляем глобальное состояние, если нужно
               const loadedProducts = await getProducts();
               dispatch(setProductsAction(loadedProducts));
             }
-            // } else {
-            //   const loadedProducts = await getProducts();
-            //   dispatch(setProductsAction(loadedProducts));
-            //   setProd(loadedProducts);
-            // }
           } catch (error) {
             console.log(error);
           } finally {
@@ -228,17 +171,10 @@ export const ProductForm = () => {
       })
     );
   };
-  // deleteProductOperaton(productId, session);
-
-  // dispatch({ type: ACTION_TYPE.CLOSE_MODAL });
-  // const loadedProducts = await getProducts();
-  // dispatch(setProductsAction(loadedProducts));
-  // setProd(loadedProducts);
 
   const onCategoryChange = ({ target }) => {
     setEditedCategory(target.value);
   };
-  //
 
   return (
     <>

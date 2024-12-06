@@ -8,17 +8,13 @@
   font-size: 20px;
 }
 
-/* .container {
-  display: flex;
-  padding: 0 10px;
-} */
+
 
 .login {
   width: 100px;
 }
 
 .column {
-  /* width: auto; */
   border: 2px solid #fff;
   padding: 10px;
   display: flex;

@@ -1,6 +1,5 @@
 .tableRow {
   display: flex;
-  /* align-items: stretch; */
   padding: 15px 0;
   border-bottom: 1px solid #eee;
 }
@@ -8,8 +7,6 @@
 .nameColumn,
 .priceColumn,
 .role-column {
-  /* min-width: 90px; */
-  /* min-height: 10px;  */
   padding: 5px;
   border: 1px solid #ccc;
   display: flex;
@@ -54,24 +51,8 @@ select {
 .btn:hover {
   background-color: #0056b3;
 }
-/* .btn2:hover {
-  background-color: #0056b3;
-}
-
-.btn2 {
-  margin-left: 10px;
-  padding: 5px 15px;
-  font-size: 14px;
-  border-radius: 5px;
-  border: none;
-  background-color: #0f2d4c;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-} */
 
 .edit {
   display: flex;
-  /* color: #000; */
   text-decoration: none;
 }

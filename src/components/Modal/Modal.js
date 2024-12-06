@@ -6,8 +6,7 @@ export const Modal = () => {
   const onCancel = useSelector(({app}) => app.modal.onCancel);
   const text = useSelector(({app}) => app.modal.text);
   const isOpen = useSelector(({app}) => app.modal.isOpen);
-//   console.log(onConfirm, "onConfirm");
-  // console.log(text, "text");
+
   if (!isOpen) {
     return;
   }

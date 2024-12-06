@@ -27,7 +27,7 @@ function App() {
     const currentuserData = JSON.parse(currentuserDataJSON);
 
     dispatch(
-      setUser({ ...currentuserData, roleId: Number(currentuserData.roleId) }) // Восстановление состояния в Redux store
+      setUser({ ...currentuserData, roleId: Number(currentuserData.roleId) })
     );
   }, [dispatch]);
 

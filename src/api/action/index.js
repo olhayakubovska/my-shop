@@ -1,10 +1,9 @@
 export * from "./action-type";
-export * from "./add-product-in-cart";
+// export * from "./add-product-in-cart";
 export * from "./loaded-async-product";
 export * from "./logout";
 export * from "./on-open-modal";
-// export * from "./remove-product";
-export * from "./remove-product-from-cart";
+// export * from "./remove-product-from-cart";
 export * from "./remove-user-ascync";
 export * from "./set-product-data";
 export * from "./set-products-action";
@@ -12,4 +11,4 @@ export * from "./set-update-users-actions";
 export * from "./set-user-action";
 export * from "./set-users-action";
 export * from "./update-product-ascync";
-export * from "./update-role-operation-ascync";
+export * from "./update-role-ascync";

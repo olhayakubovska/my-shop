@@ -1,4 +1,3 @@
-
 import styles from "./productRow.module.css";
 
 export const ProductRow = ({
@@ -10,7 +9,7 @@ export const ProductRow = ({
   description,
   editProduct,
   deleteProduct,
-  isSaveButtonDisabled
+  isSaveButtonDisabled,
 }) => {
   return (
     <div key={id}>
@@ -22,12 +21,6 @@ export const ProductRow = ({
           onChange={() => {}}
         />
 
-        {/*
-          TODO(olhayakubovska): You can use type="number" for numeric values:
-          https://www.w3schools.com/tags/att_input_type_number.asp
-
-          Price is a numeric value.
-        */}
         <input
           className={styles.priceColumn}
           value={price}
@@ -39,13 +32,6 @@ export const ProductRow = ({
           value={categoryId}
           onChange={() => {}}
         />
-        {/* <select value={selectCategory} onChange={onCategoryChange}>
-            {categories.map(({ id: categoryId, category }) => (
-              <option key={categoryId} value={categoryId}>
-                {category}
-              </option>
-            ))}
-          </select> */}
 
         <input
           className={styles.priceColumn}
@@ -59,10 +45,6 @@ export const ProductRow = ({
         >
           edit
         </button>
-        {/* 
-        <div className={styles.edit} onClick={editProduct}>
-          <i className="fa fa-pencil" aria-hidden="true"></i>
-        </div> */}
 
         <button className={styles.btn} onClick={deleteProduct}>
           delete
@@ -71,6 +53,3 @@ export const ProductRow = ({
     </div>
   );
 };
-
-// // updateProductOperation(id, newNameProdut, newPriceProduct, selectCategory);
-// console.log(id, newNameProdut, newPriceProduct, selectCategory, 'clickUpdate');

@@ -1,4 +1,5 @@
 import styles from "./Pagination.module.css";
+
 export const Pagination = ({ page, setPage, lastPage }) => {
   return (
     <div className={styles.container}>

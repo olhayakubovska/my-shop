@@ -18,7 +18,6 @@ export const addProductToBasket = async (userId, productId,productImage,productN
     }
 
     const card = await response.json();
-    // console.log(card, 'card123')
     return card;
   } catch (error) {
     console.log(error);

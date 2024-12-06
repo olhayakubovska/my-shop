@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 1200px;
   min-height: 100%;
-  z-index: 1000; /* Чтобы хедер всегда был сверху */
+  z-index: 1000; 
   margin: 0 auto;
   position: relative;
 }

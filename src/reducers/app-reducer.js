@@ -20,12 +20,6 @@ export const AppReducer = (state = initialStateApp, action) => {
       };
     case ACTION_TYPE.CLOSE_MODAL:
       return initialStateApp;
-    case "isGoBackToTheMainPage":
-      return {
-        ...state,
-        isGoBackToTheMainPage: true,
-
-      };
 
     case ACTION_TYPE.ON_OPEN_MODAL:
       return {

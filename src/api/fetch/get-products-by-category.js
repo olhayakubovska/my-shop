@@ -10,7 +10,6 @@ export const getProductsByCategory = async (categoryId, page, limit) => {
     }
     const products = await response.json();
     const links = await response.headers.get("Link");
-    console.log(page, "pageFetch", products);
 
     return {
       products,

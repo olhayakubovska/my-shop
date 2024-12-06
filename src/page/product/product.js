@@ -1,24 +1,20 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import styles from "./product.module.css";
-import { getProductOperation } from "../../api/operations";
-import { addProductInBasket } from "../../api/action";
+import { getProductOperation,addProductToBasketOperation } from "../../api/operations";
 import { Search } from "../../components";
 import { ProductsCards } from "../products-cards/poducts-cards";
-import { addProductToBasketOperation } from "../../api/operations/add-product-to-basket-operation";
 
 export const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState("");
-  // const [productsBeforeSearch, setProductsBeforeSearch] = useState([]);
   const [searchPhrase, setSearchPhrase] = useState("");
 
   const userId = useSelector(({ user }) => user.id);
 
   const productsFromRedax = useSelector(({ products }) => products.products);
-  // const dispatch = useDispatch();
 
   useEffect(() => {
     getProductOperation(id).then((loadedProduct) => {
@@ -62,21 +58,7 @@ export const Product = () => {
       product.description
     );
 
-    // dispatch(addProductInBasket({ userId, product }));
-
-    // const currentCart = JSON.parse(localStorage.getItem("cart")) || [];
-    // const { image, name, price, description } = product;
-    // currentCart.push({ id, userId,  image, name, price, description ,quantity: 1 });
-
-    // localStorage.setItem("cart", JSON.stringify(currentCart));
-    // // let cartLength = currentCart.length;
-
-    // console.log(cartLength, "длина");
   };
-  // console.log("product123", product);
-
-  // const productsUs = useSelector(({ basket }) => basket.baskets);
-  // console.log(productsUs, "productsUser");
 
   return (
     <>
@@ -112,9 +94,12 @@ export const Product = () => {
             </div>
           </div>
           <div className={styles.btnAndId}>
+            {/* {userRole !== ROLE.GUEST && ( */}
             <button className={styles.btn} onClick={() => addToCart(id)}>
               добавить в корзину
             </button>
+            {/* )} */}
+
             <div className={styles.idProduct}> {id}</div>
           </div>
           {/* <Link to={`/product/edit`}>

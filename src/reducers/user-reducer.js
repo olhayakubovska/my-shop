@@ -1,5 +1,5 @@
 import { ACTION_TYPE } from "../api/action";
-import { ROLE } from "../constants/role";
+import { ROLE } from "../constants";
 
 const initialStateUser = {
   id: null,
@@ -16,11 +16,6 @@ export const UserReducer = (state = initialStateUser, action) => {
         ...state,
         ...action.payload,
       };
-    // case "setUserRole":
-    //   return {
-    //     ...state,
-    //     ... action.payload,
-    //   };
 
     case ACTION_TYPE.LOGOUT:
       return initialStateUser;

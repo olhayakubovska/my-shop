@@ -9,6 +9,5 @@ export const Error = ({ children, error, arrayAccess }) => {
     : "Доступно только админу :)";
   const errors = errorComponent || error;
 
-  // console.log(roleId, "roleIdERROR")
   return errors ? <div className={styles.err}>{errors}</div> : children;
 };

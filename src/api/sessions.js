@@ -1,6 +1,5 @@
 import { addSession, deleteSession, getSession } from "./fetch";
 
-
 export const sessions = {
   create(user) {
     const hash = Math.random().toFixed(50);
@@ -16,7 +15,7 @@ export const sessions = {
     if (!session) {
       return;
     }
-    console.log(session.id,"sessionID")
+    console.log(session,"sessionSeesOP")
     deleteSession(session.id);
   },
   async access(hash, accessRoles) {
